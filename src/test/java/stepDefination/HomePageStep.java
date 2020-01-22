@@ -38,7 +38,7 @@ public class HomePageStep {
 		driver.findElement(termsCheckbox).click();
 		
 		driver.findElement(memberLoginBtn).click();
-		System.out.println("Success");
+		System.out.println("Success in Melco Home screen");
 	}
 
 	@Then("^I land on Home screen successfully$")
